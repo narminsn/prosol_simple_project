@@ -1,0 +1,38 @@
+{% extends "admin/change_form.html" %}
+
+{% block contentbuttons %}
+
+    {% if original.serviceinformation.status == '0' %}
+
+        <div style="margin-bottom: 92px ;" class="submit-row">
+
+            <p style="margin-left: 421px;" class="deletelink-box"><a href="{% url 'confirm_provider' original.id 2 %}"
+                                                                     class="deletelink">Cancel</a></p>
+
+            <p style="margin-left: 421px;" class="deletelink-box"><a style="background: #41758f;"
+                                                                     href="{% url 'confirm_provider' original.id 1 %}"
+                                                                     class="deletelink">Submit</a></p>
+
+
+        </div>
+
+    {% elif original.serviceinformation.status == '1' %}
+        <div style="margin-bottom: 92px ;" class="submit-row">
+
+            <p style="margin-left: 778px;" class="deletelink-box"><a href="{% url 'confirm_provider' original.id 2 %}"
+                                                                     class="deletelink">Cancel Status</a></p>
+
+
+        </div>
+    {% else %}
+
+        <div style="margin-bottom: 92px ;" class="submit-row">
+
+            <p style="margin-left: 778px;" class="deletelink-box"><a style="background: #41758f;"
+                                                                     href="{% url 'confirm_provider' original.id 1 %}"
+                                                                     class="deletelink">Confirm Status</a></p>
+
+
+        </div>
+    {% endif %}
+{% endblock %}
