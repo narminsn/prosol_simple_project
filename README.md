@@ -8,6 +8,14 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ~~~
 3. Create environment variables (.env)
+~~~python
+POSTGRES_DB
+POSTGRES_USER
+POSTGRES_PASSWORD
+POSTGRES_HOST
+POSTGRES_PORT
+~~~
+
 4. Migrate db
 ~~~python
 python3 manage.py migrate
