@@ -47,7 +47,7 @@ class ProviderContact(models.Model):
     mob = models.CharField(max_length=100)
 
     def __str__(self):
-        return f'{self.provider.public_name} =>  {self.name} {self.last_name}'
+        return f'{self.name} {self.last_name}'
     
     class Meta:
         verbose_name = 'Main Contact'
@@ -78,3 +78,6 @@ class ServiceInformation(models.Model):
     class Meta:
         verbose_name = 'Service Information'
         verbose_name_plural = 'Service Informations'
+
+    def __str__(self):
+        return self.service_type

@@ -4,7 +4,6 @@
     <list default="true" id="d2bf80bb-4690-47f4-9dd9-37866a95d373" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/providers/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/providers/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/admin/change_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/change_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/providers.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/providers.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,10 +30,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/providers/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            <state relative-caret-position="162">
+              <caret line="44" column="57" lean-forward="true" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/assets/css/vendor/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="159">
+              <caret line="2" column="33186" selection-start-line="2" selection-start-column="33186" selection-end-line="2" selection-end-column="33186" />
+              <folding>
+                <element signature="e#110285#110481#2" expanded="true" />
+                <element signature="e#110527#110724#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,8 +55,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/admin/change_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="22" column="115" selection-start-line="22" selection-start-column="115" selection-end-line="22" selection-end-column="115" />
+            <state relative-caret-position="423">
+              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+              <folding>
+                <element signature="e#210#237#0#HTML" expanded="true" />
+                <element signature="e#404#431#0#HTML" expanded="true" />
+                <element signature="e#480#508#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/providers/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="68" column="4" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+            <state relative-caret-position="534">
+              <caret line="71" column="16" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -108,15 +125,6 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="21" lean-forward="true" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -126,8 +134,10 @@
       <find>review</find>
       <find>social</find>
       <find>utt</find>
-      <find>submit</find>
       <find>rev</find>
+      <find>submit</find>
+      <find>focusa</find>
+      <find>focusable</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -238,16 +248,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608701705244</updated>
-      <workItem from="1608701711918" duration="3297000" />
+      <workItem from="1608701711918" duration="3865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3297000" />
+    <option name="totallyTimeSpent" value="3865000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2495831" />
@@ -256,7 +265,7 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.23484014" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.18853363" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -306,13 +315,6 @@
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/providers/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="68" column="4" lean-forward="true" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/providers.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -342,20 +344,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/providers/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="71" column="16" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/providers/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="162">
+          <caret line="44" column="57" lean-forward="true" selection-start-line="44" selection-start-column="57" selection-end-line="44" selection-end-column="57" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/assets/css/vendor/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="2" column="33186" selection-start-line="2" selection-start-column="33186" selection-end-line="2" selection-end-column="33186" />
+          <folding>
+            <element signature="e#110285#110481#2" expanded="true" />
+            <element signature="e#110527#110724#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/admin/change_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="22" column="115" selection-start-line="22" selection-start-column="115" selection-end-line="22" selection-end-column="115" />
+        <state relative-caret-position="423">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="e#210#237#0#HTML" expanded="true" />
+            <element signature="e#404#431#0#HTML" expanded="true" />
+            <element signature="e#480#508#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

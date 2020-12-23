@@ -38,7 +38,6 @@ class ProviderAdmin(admin.ModelAdmin):
 
     def service_status(self, obj):
         return obj.serviceinformation.get_status_display()
-
     def service_name(self, obj):
         return obj.serviceinformation.get_service_type_display()
 
