@@ -3,140 +3,176 @@
 {% load widget_tweaks %}
 
 {% block content %}
-<section id="about" class="section-2 highlights image-right">
-    <div class="container">
-        <div class="row">
-            <div class="col-12  align-self-center text-center text-md-left">
-                <div class="row intro">
-                    <div class="col-12 p-0">
-                        <h2 class="featured alt">About Us</h2>
-                        <p style="font-size: 23px;">The benefits of potential cooperation program:</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-6 align-self-center text-center text-md-left">
-
-                <div class="row items">
-                    <div class="col-12 p-0">
-                        <div class="row item">
-
-                            <div class="col-12 col-md-9 align-self-center">
-                                <h4>Why do we use it?</h4>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            </div>
-                        </div>
-                        <div class="row item">
-
-                            <div class="col-12 col-md-9 align-self-center">
-                                <h4>Where does it come from?</h4>
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a  piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-6 align-self-center text-center text-md-left">
-
-                <div class="row items">
-                    <div class="col-12 p-0">
-                        <div class="row item">
-
-                            <div class="col-12 col-md-9 align-self-center">
-                                <h4>Why do we use it?</h4>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                            </div>
-                        </div>
-                        <div class="row item">
-
-                            <div class="col-12 col-md-9 align-self-center">
-                                <h4>Where does it come from?</h4>
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
-<section id="contact" class="section-7 form">
-    <div class="container">
-        <div class="row">
-            <div class="col-12  align-self-center text-center text-md-left">
-                <div class="row intro">
-                    <div class="col-12 p-0">
-                        <h2 class="featured alt">Apply Now</h2>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <form method="POST" class="multi-step-form">
-
-            {% csrf_token %}
+    <section id="about" class="section-2 highlights image-right">
+        <div class="container">
             <div class="row">
-                <div class="col-12  align-self-start text-center text-md-left">
-
-
-                    <!-- Steps Group -->
-                    <div class="row text-center form-content">
+                <div class="col-12  align-self-center text-center text-md-left">
+                    <div class="row intro">
                         <div class="col-12 p-0">
-                            <ul class="progressbar">
-                                <li>General Information</li>
-                                <li>Main Contact</li>
-                                <li>Service Information</li>
-                            </ul>
+                            <h2 class="featured alt">About Us</h2>
+                            <p style="font-size: 23px;">The benefits of potential cooperation program:</p>
+                        </div>
+                    </div>
 
-                            <!-- Group 1 -->
-                            <fieldset class="step-group">
-                                <div class="row">
-                                    <div class="col-12 input-group p-0">
-                                        {% render_field form.public_name placeholder="Provider Public Name *" %}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 align-self-center text-center text-md-left">
+
+                    <div class="row items">
+                        <div class="col-12 p-0">
+                            <div class="row item">
+
+                                <div class="col-12 col-md-9 align-self-center">
+                                    <h4>Why do we use it?</h4>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                </div>
+                            </div>
+                            <div class="row item">
+
+                                <div class="col-12 col-md-9 align-self-center">
+                                    <h4>Where does it come from?</h4>
+                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                                        in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                                        old.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 align-self-center text-center text-md-left">
+
+                    <div class="row items">
+                        <div class="col-12 p-0">
+                            <div class="row item">
+
+                                <div class="col-12 col-md-9 align-self-center">
+                                    <h4>Why do we use it?</h4>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                </div>
+                            </div>
+                            <div class="row item">
+
+                                <div class="col-12 col-md-9 align-self-center">
+                                    <h4>Where does it come from?</h4>
+                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots
+                                        in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                                        old.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section-7 form">
+        <div class="container">
+            <div class="row">
+                <div class="col-12  align-self-center text-center text-md-left">
+                    <div class="row intro">
+                        <div class="col-12 p-0">
+                            <h2 class="featured alt">Apply Now</h2>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <form method="POST" class="multi-step-form">
+
+                {% csrf_token %}
+                <div class="row">
+                    <div class="col-12  align-self-start text-center text-md-left">
+
+
+                        <!-- Steps Group -->
+                        <div class="row text-center form-content">
+                            <div class="col-12 p-0">
+                                <ul class="progressbar">
+                                    <li>General Information</li>
+                                    <li>Main Contact</li>
+                                    <li>Service Information</li>
+                                </ul>
+
+                                <!-- Group 1 -->
+                                <fieldset class="step-group">
+                                    <div class="row">
+                                        <div class="col-12 input-group p-0">
+                                            {% render_field form.public_name placeholder="Provider Public Name *" %}
+
+                                        </div>
+                                        {{ form.public_name.errors }}
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 input-group p-0">
+                                            {% render_field form.legal_name placeholder="Provider Legal Name" %}
+                                        </div>
+                                        {{ form.legal_name.errors }}
 
                                     </div>
-                                    {{ form.public_name.errors }}
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 input-group p-0">
-                                        {% render_field form.legal_name placeholder="Provider Legal Name" %}
-                                    </div>
-                                    {{ form.legal_name.errors }}
+                                    <div class="row">
+                                        <div class="col-12 input-group p-0">
+                                            {% render_field form.company_website placeholder="Company Website" %}
 
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 input-group p-0">
-                                        {% render_field form.company_website placeholder="Company Website" %}
+                                        </div>
+                                        {{ form.company_website.errors }}
 
                                     </div>
-                                    {{ form.company_website.errors }}
 
-                                </div>
+                                    <div class="row">
+                                        {% if social_value %}
+                                            {% for field in social_value %}
+                                                <div class="col-12 col-md-4 input-group p-0">
+                                                    {#                                                <p>Social Pages reference links</p>#}
+                                                    <select name="social_link" class="form-control" required>
+                                                        <option value="">Social Pages reference links</option>
+                                                        {% if field.value == "instagram" %}
+                                                            <option selected value="instagram">Instagram</option>
 
-                                <div class="row">
-                                    {% if social_value %}
-                                        {% for field in social_value %}
+                                                            <option value="facebook">Facebook</option>
+                                                        {% elif  field.value == "facebook" %}
+                                                            <option value="instagram">Instagram</option>
+
+                                                            <option selected value="facebook">Facebook</option>
+                                                        {% else %}
+                                                            <option value="instagram">Instagram</option>
+
+                                                            <option value="facebook">Facebook</option>
+                                                        {% endif %}
+
+
+                                                    </select>
+                                                    {#                                                {% render_field form.company_website  placeholder="Company Website" %}#}
+
+                                                </div>
+                                                <div style="margin-left: 85px;" class="col-12 col-md-5 input-group p-0">
+                                                    <input value="{{ field.link }}" type="text" required
+                                                           name="link_value" class="form-control"
+                                                           placeholder="Link">
+
+                                                </div>
+                                                {% if social_value|length == 1 %}
+
+                                                    <div style="margin-left: 105px;"
+                                                         class="col-12 col-md-1 input-group p-0">
+
+                                                        <a id="add-social" class="btn primary-button ">Add</a>
+                                                    </div>
+                                                {% endif %}
+                                            {% endfor %}
+                                        {% else %}
+
                                             <div class="col-12 col-md-4 input-group p-0">
-                                                {#                                                <p>Social Pages reference links</p>#}
                                                 <select name="social_link" class="form-control" required>
                                                     <option value="">Social Pages reference links</option>
-                                                    {% if field.value == "instagram" %}
-                                                        <option selected value="instagram">Instagram</option>
 
-                                                        <option value="facebook">Facebook</option>
-                                                    {% elif  field.value == "facebook" %}
-                                                        <option value="instagram">Instagram</option>
+                                                    <option value="instagram">Instagram</option>
 
-                                                        <option selected value="facebook">Facebook</option>
-                                                    {% else %}
-                                                        <option value="instagram">Instagram</option>
-
-                                                        <option value="facebook">Facebook</option>
-                                                    {% endif %}
+                                                    <option value="facebook">Facebook</option>
 
 
                                                 </select>
@@ -144,190 +180,188 @@
 
                                             </div>
                                             <div style="margin-left: 85px;" class="col-12 col-md-5 input-group p-0">
-                                                <input value="{{ field.link }}" type="text" required name="link_value" class="form-control"
+                                                <input value="{{ field.link }}" type="text" required name="link_value"
+                                                       class="form-control"
                                                        placeholder="Link">
 
                                             </div>
-                                            {% if social_value|length == 1 %}
 
-                                                <div style="margin-left: 105px;"
-                                                     class="col-12 col-md-1 input-group p-0">
+                                            <div style="margin-left: 105px;"
+                                                 class="col-12 col-md-1 input-group p-0">
 
-                                                    <a id="add-social" class="btn primary-button ">Add</a>
-                                                </div>
-                                            {% endif %}
-                                        {% endfor %}
+                                                <a id="add-social" class="btn primary-button ">Add</a>
+                                            </div>
+                                        {% endif %}
+                                        {% if social_value_error %}
+                                            <div class="col-12 input-group p-0">
+                                                <ul class="errorlist">
+                                                    <li>This fields is required.</li>
+                                                </ul>
+                                            </div>
+                                        {% endif %}
+                                    </div>
 
-
-                                    {% endif %}
-                                    {% if social_value_error %}
+                                    <div class="row">
                                         <div class="col-12 input-group p-0">
-                                            <ul class="errorlist">
-                                                <li>This fields is required.</li>
-                                            </ul>
+                                            {% render_field form.company_phone placeholder="Company Phone *" %}
+
                                         </div>
-                                    {% endif %}
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-12 input-group p-0">
-                                        {% render_field form.company_phone placeholder="Company Phone *" %}
+                                        {{ form.company_phone.errors }}
 
                                     </div>
-                                    {{ form.company_phone.errors }}
-
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 input-group p-0">
-                                        {% render_field form.company_email placeholder="Company e-mail address *" %}
-
-                                    </div>
-                                    {{ form.company_email.errors }}
-
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 input-group p-0">
-                                        {% render_field form.address placeholder="Provider Address *" %}
-
-                                    </div>
-                                    {{ form.address.errors }}
-
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 input-group p-0">
-                                        {% render_field form.company_description placeholder="Short Company Description" %}
-
-                                    </div>
-                                    {{ form.company_description.errors }}
-
-                                </div>
-                                <div class="col-12 input-group p-0">
-                                    <button type="submit" class="step-next btn primary-button">NEXT
-                                        <i class="icon-arrow-right-circle left"></i></button>
-                                </div>
-                            </fieldset>
-
-                            <!-- Group 2 -->
-                            <fieldset class="step-group">
-                                <div class="row">
-                                    <div class="col-12 input-group p-0">
-                                        {% render_field contact_form.name placeholder="Name *" %}
-
-                                    </div>
-                                    {{ contact_form.name.errors }}
-
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 input-group p-0">
-                                        {% render_field contact_form.last_name placeholder="Last Name *" %}
-
-                                    </div>
-                                    {{ contact_form.last_name.errors }}
-
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 input-group p-0">
-                                        {% render_field contact_form.rol placeholder="Role" %}
-
-                                    </div>
-                                    {{ contact_form.rol.errors }}
-
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 input-group p-0">
-                                        {% render_field contact_form.email placeholder="Email *" %}
-
-                                    </div>
-                                    {{ contact_form.email.errors }}
-
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 input-group p-0">
-                                        {% render_field contact_form.phone placeholder="Phone *" %}
-                                    </div>
-                                    {{ contact_form.phone.errors }}
-
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 input-group p-0">
-                                        {% render_field contact_form.mob placeholder="Mob *" %}
-
-                                    </div>
-                                    {{ contact_form.mob.errors }}
-
-                                </div>
-                                <div class="col-12 input-group p-0 d-flex justify-content-between justify-content-md-start">
-                                    <a class="step-prev btn primary-button mr-4"><i class="icon-arrow-left-circle"></i>PREV</a>
-                                    <button type="submit" class="step-next btn primary-button">NEXT<i
-                                            class="icon-arrow-right-circle left"></i></button>
-                                </div>
-                            </fieldset>
-
-                            <!-- Group 3 -->
-                            <fieldset class="step-group">
-
-                                <div class="row">
-                                    <div class="col-12 input-group p-0">
-                                        <select name="service_type" class="form-control" required=""
-                                                id="id_service_type">
-                                            <option value="">Type of service</option>
-                                            {% if service_form.service_type == 'transfer' %}
-                                                <option selected value="transfer">Transfer</option>
-                                                <option value="rent">Rent a car</option>
-
-                                            {% elif service_form.service_type == 'rent' %}
-
-                                                <option value="transfer">Transfer</option>
-                                                <option selected value="rent">Rent a car</option>
-                                            {% else %}
-                                                <option value="transfer">Transfer</option>
-                                                <option value="rent">Rent a car</option>
-
-                                            {% endif %}
-
-                                        </select>
-                                    </div>
-                                    {{ service_form.service_type.errors }}
-
-                                </div>
-                                <div class="row">
-                                    <div class="col-12 input-group p-0">
-                                        {% render_field service_form.service_description placeholder='Brief Service Description *' %}
-
-                                    </div>
-                                    {{ service_form.service_description.errors }}
-
-                                </div>
-                                <div class="row">
-                                    <div class="radio">
-                                        <input required name="review_aggreement" type="checkbox" name="optradio">
-                                        <label class="checkbox">Review the supplier agreement</label>
-                                    </div>
-                                    {% if checkbox_error %}
+                                    <div class="row">
                                         <div class="col-12 input-group p-0">
-                                            <ul class="errorlist">
-                                                <li>This field is required.</li>
-                                            </ul>
+                                            {% render_field form.company_email placeholder="Company e-mail address *" %}
+
                                         </div>
-                                    {% endif %}
+                                        {{ form.company_email.errors }}
 
-                                </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 input-group p-0">
+                                            {% render_field form.address placeholder="Provider Address *" %}
 
-                                <div class="col-12 input-group p-0 d-flex justify-content-between justify-content-md-start">
-                                    <a class="step-prev btn primary-button mr-4"><i class="icon-arrow-left-circle"></i>PREV</a>
-                                    <button type="submit" class="btn primary-button">SEND<i
-                                            class="icon-arrow-right-circle left"></i></button>
-                                </div>
-                            </fieldset>
+                                        </div>
+                                        {{ form.address.errors }}
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 input-group p-0">
+                                            {% render_field form.company_description placeholder="Short Company Description" %}
+
+                                        </div>
+                                        {{ form.company_description.errors }}
+
+                                    </div>
+                                    <div class="col-12 input-group p-0">
+                                        <button type="submit" class="step-next btn primary-button">NEXT
+                                            <i class="icon-arrow-right-circle left"></i></button>
+                                    </div>
+                                </fieldset>
+
+                                <!-- Group 2 -->
+                                <fieldset class="step-group">
+                                    <div class="row">
+                                        <div class="col-12 input-group p-0">
+                                            {% render_field contact_form.name placeholder="Name *" %}
+
+                                        </div>
+                                        {{ contact_form.name.errors }}
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 input-group p-0">
+                                            {% render_field contact_form.last_name placeholder="Last Name *" %}
+
+                                        </div>
+                                        {{ contact_form.last_name.errors }}
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 input-group p-0">
+                                            {% render_field contact_form.rol placeholder="Role" %}
+
+                                        </div>
+                                        {{ contact_form.rol.errors }}
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 input-group p-0">
+                                            {% render_field contact_form.email placeholder="Email *" %}
+
+                                        </div>
+                                        {{ contact_form.email.errors }}
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 input-group p-0">
+                                            {% render_field contact_form.phone placeholder="Phone" %}
+                                        </div>
+                                        {{ contact_form.phone.errors }}
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 input-group p-0">
+                                            {% render_field contact_form.mob placeholder="Mob *" %}
+
+                                        </div>
+                                        {{ contact_form.mob.errors }}
+
+                                    </div>
+                                    <div class="col-12 input-group p-0 d-flex justify-content-between justify-content-md-start">
+                                        <a class="step-prev btn primary-button mr-4"><i
+                                                class="icon-arrow-left-circle"></i>PREV</a>
+                                        <button type="submit" class="step-next btn primary-button">NEXT<i
+                                                class="icon-arrow-right-circle left"></i></button>
+                                    </div>
+                                </fieldset>
+
+                                <!-- Group 3 -->
+                                <fieldset class="step-group">
+
+                                    <div class="row">
+                                        <div class="col-12 input-group p-0">
+                                            <select name="service_type" class="form-control" required=""
+                                                    id="id_service_type">
+                                                <option value="">Type of service</option>
+                                                {% if service_form.service_type == 'transfer' %}
+                                                    <option selected value="transfer">Transfer</option>
+                                                    <option value="rent">Rent a car</option>
+
+                                                {% elif service_form.service_type == 'rent' %}
+
+                                                    <option value="transfer">Transfer</option>
+                                                    <option selected value="rent">Rent a car</option>
+                                                {% else %}
+                                                    <option value="transfer">Transfer</option>
+                                                    <option value="rent">Rent a car</option>
+
+                                                {% endif %}
+
+                                            </select>
+                                        </div>
+                                        {{ service_form.service_type.errors }}
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 input-group p-0">
+                                            {% render_field service_form.service_description placeholder='Brief Service Description *' %}
+
+                                        </div>
+                                        {{ service_form.service_description.errors }}
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="radio">
+                                            <input required name="review_aggreement" type="checkbox" name="optradio">
+                                            <label class="checkbox">Review the supplier agreement</label>
+                                        </div>
+                                        {% if checkbox_error %}
+                                            <div class="col-12 input-group p-0">
+                                                <ul class="errorlist">
+                                                    <li>This field is required.</li>
+                                                </ul>
+                                            </div>
+                                        {% endif %}
+
+                                    </div>
+
+                                    <div class="col-12 input-group p-0 d-flex justify-content-between justify-content-md-start">
+                                        <a class="step-prev btn primary-button mr-4"><i
+                                                class="icon-arrow-left-circle"></i>PREV</a>
+                                        <button type="submit" class="btn primary-button">SEND<i
+                                                class="icon-arrow-right-circle left"></i></button>
+                                    </div>
+                                </fieldset>
+                            </div>
                         </div>
                     </div>
+
+
                 </div>
-
-
-            </div>
-        </form>
-    </div>
-</section>
+            </form>
+        </div>
+    </section>
 
 {% endblock %}
 
