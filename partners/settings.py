@@ -75,20 +75,8 @@ WSGI_APPLICATION = 'partners.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
-# host="0.0.0.0",
-#     database="turbo_db",
-#     user="turbo_user",
-#     password="shadyshady"
-# 8574gujfiwekd7wh4r6hseaifmkdmf3u4fneurygnrjg
+
 DATABASES = {
-# 'default': {
-#             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#             'NAME': "turbo_db",
-#             'USER': 'turbo_user' ,
-#             'PASSWORD': 'shadyshady',
-#             'HOST': '0.0.0.0',
-#             'PORT': '5432',
-#         }
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
             'NAME': config("POSTGRES_DB"),

@@ -56,9 +56,6 @@ class ProviderContact(models.Model):
 
 class ServiceInformation(models.Model):
 
-    WAIT = 0
-    APPROVE = 1
-    CANCEL = 2
 
     type_choices = [
         ('transfer', 'Transfer'),

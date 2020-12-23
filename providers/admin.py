@@ -1,9 +1,6 @@
 from django.contrib import admin
 from . import models
 # Register your models here.
-admin.site.register(models.ServiceInformation)
-admin.site.register(models.ProviderContact)
-admin.site.register(models.SocialLink)
 
 
 class ContactInline(admin.StackedInline):

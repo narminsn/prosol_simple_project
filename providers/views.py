@@ -27,6 +27,8 @@ def provider_apply(request):
         form = ProviderForm(request.POST)
         social = request.POST.getlist('social_link')
         link = request.POST.getlist('link_value')
+        print(social)
+        print(link,'\n\nsdfASJd')
         if form.is_valid() and social[0] and link[0]:
             provider = form.save()
             social_value = []
@@ -39,21 +41,16 @@ def provider_apply(request):
                 social_value.append(obj)
 
 
-            print(social,link,'LINKK\n\n')
 
             contact_form = ContactForm(request.POST)
             
-            print(contact_form.errors,'CONTACTFORM\n\n')
             if contact_form.is_valid():
-                print('CONTACT VALID')
                 contact = contact_form.save(commit=False)
                 contact.provider_id = provider.id
                 contact.save()
 
                 service_form = ServiceInfo(request.POST)
-                print(service_form.errors,'service\n\n')
                 if service_form.is_valid():
-                    print('service\n\n')
 
                     service = service_form.save(commit=False)
                     service.provider_id = provider.id
@@ -101,7 +98,9 @@ def provider_apply(request):
     return render (request, 'providers.html',context)
             
 
-        
+
+# Provider Status Confirm by admin
+
 @staff_member_required
 def confirm_provider(request,id,status):
     try:
