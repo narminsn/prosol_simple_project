@@ -20,7 +20,11 @@ POSTGRES_PORT
 ~~~python
 python3 manage.py migrate
 ~~~
-5. Run project
+5. Create admin user
+~~~python
+python3 manage.py createsuperuser
+~~~
+6. Run project
 ~~~python
 python3 manage.py runserver
 ~~~
