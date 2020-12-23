@@ -1,9 +1,8 @@
 # prosol_simple_project
 
 1. Clone project.
-2.
 ~~~python
-cd prosol_simple_project/
+2. cd prosol_simple_project/
 ~~~
 
 3. Create virtual env.
